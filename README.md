@@ -13,6 +13,7 @@ Here are a list of features that I would like to incorporate into this app.
 1) Wind direction [both text and graphical]
 2) Ability for user to determine how Temperature and Wind Speed info is displayed Metric (current default) or Imperial.
 3) A graphical locator of the city on a map
+4) Add error handling
 
 Acknowledgement
 

@@ -41,7 +41,7 @@ export default function Weather() {
 
   useEffect(() => {
     fetchWeatherData("Manchester");
-    document.title = "Weather App"
+    document.title = "Weather App v1.0.0"
   }, []);
 
   return (
