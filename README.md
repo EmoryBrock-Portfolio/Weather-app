@@ -26,6 +26,9 @@ https://youtu.be/5ZdHfJVAY-s?feature=shared&t=19152
 
 
 Change Log
+v1.1.0
+- added wind direction info
+
 v1.0.0  
 - app allows user to input city name into search bar
 - app displays the following information
