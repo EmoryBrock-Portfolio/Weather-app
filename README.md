@@ -6,7 +6,7 @@ This is a weather application that uses the user submitted City Name and display
 
 The weather data is provided by OpenWeather's Current Weather Data API. [https://openweathermap.org/]
 
-A live version of this app is posted at the 
+A live version of this app is posted at https://ebdevweatherapp.netlify.app/
 
 Future Features
 
