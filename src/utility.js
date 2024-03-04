@@ -1,30 +1,64 @@
-/* wind direction names 
-
-const degree = X
-switch (degree) {
-    case 0:
-        return 'N'
+export const getWindDirectionLabel = (windDegree) => {
+    let label;
+  
+    switch (true) {
+      case windDegree > 315:
+        label = "NNW";
         break;
-    case degree < 0 && degree < 22.5:
-        return 'NNE'
+      case windDegree === 315:
+        label = "NW";
         break;
-}
+      case windDegree > 270:
+        label = "WNW";
+        break;
+      case windDegree === 270:
+        label = "W";
+        break;
+      case windDegree > 225:
+        label = "WSW";
+        break;
+      case windDegree === 225:
+        label = "SW";
+        break;
+      case windDegree > 180:
+        label = "SSW";
+        break;
+      case windDegree === 180:
+        label = "S";
+        break;
+      case windDegree > 135:
+        label = "SSE";
+        break;
+      case windDegree === 135:
+        label = "SE";
+        break;
+      case windDegree > 90:
+        label = "ESE";
+        break;
+      case windDegree === 90:
+        label = "E";
+        break;
+      case windDegree > 45:
+        label = "ENE";
+        break;
+      case windDegree === 45:
+        label = "NE";
+        break;
+      case windDegree > 0:
+        label = "NNE";
+        break;
+      default:
+        label = "N";
+    }
 
-N    0
-NNE  22.5
-NE   45
-ENE  67.5
-E    90
-ESE  112.5
-SE   135
-SSE  157.5
-S    180
-SSW  202.5
-SW   225
-WSW  247.5
-W    270
-WNW  292.5
-NW   315
-NNW  337.5
-N    360 (not used)
-*/
+    return label
+  }
+
+export const getCurrentDate = () => {
+    return new Date().toLocaleDateString("en-us", {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      });
+    }

@@ -1,5 +1,6 @@
 import './App.css'
-import Weather from './components/weather/Weather'
+import Weather from './components/weather/Weather.jsx'
+import Map from './components/map/Map.jsx'
 
 function App() {
 

@@ -26,6 +26,12 @@ https://youtu.be/5ZdHfJVAY-s?feature=shared&t=19152
 
 
 Change Log
+
+v1.1.1
+- restructured app set up parse out functions to a utility. js file
+- changed colour of app background
+- changed various font size CSS properties to rem 
+
 v1.1.0
 - added wind direction info
 
